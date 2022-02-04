@@ -1,0 +1,52 @@
+#meni {
+    display: flex;
+}
+
+#meni a {
+    flex-grow: 1;
+    text-decoration: none;
+    color: Black;
+    font-size: 36px;
+}
+
+#vezba{
+    border: 1px solid black;
+    display: grid;
+    grid: 500px / repeat(2, 500px) ;
+}
+
+#vezba > div > img {
+    width: 500px;
+    height: 500px;
+}
+
+#dugme {
+    width: 200px;
+    height: 100px;
+}
+#dugme:hover {
+    background-color: blue;
+}
+
+#vezba2{
+    border: 1px solid black;
+    display: grid;
+    grid: 500px / repeat(2, 500px) ;
+    grid-column-gap: 50px;
+}
+
+#kolona1 {
+    text-align: center;
+}
+
+#kolona2 {
+    text-align: justify;
+    background-color: aqua;
+    margin-left: 60px;
+}
+
+#kopce {
+    position: relative;
+  margin-left: 530px;
+}
+
